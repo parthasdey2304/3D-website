@@ -9,7 +9,7 @@
 </head>
 <body class="">
     <div id="main" class="relative overflow-hidden h-full">
-        <div id="page1" data-scroll data-scroll-speed="-5" class="bg-blue-600 h-screen w-screen relative">
+        <div id="page1" data-scroll data-scroll-speed="-5" class="bg-[#1137ca] h-screen w-screen relative">
             <nav class="w-full h-20 absolute flex justify-between p-4">
                 <div>
                     <span class="text-5xl font-bold font-mono text-white">LOGO</span>
@@ -17,10 +17,10 @@
 
                 <div class="p-2">
                     <ul class="flex space-x-10 text-xl text-white font-semibold font-mono">
-                        <li>Home</li>
-                        <li>Services</li>
-                        <li>About us</li>
-                        <li>Contact us</li>
+                        <li class="cursor-pointer">Home</li>
+                        <li class="cursor-pointer">Services</li>
+                        <li class="cursor-pointer">About us</li>
+                        <li class="cursor-pointer">Contact us</li>
                     </ul>
                 </div>
             </nav>
@@ -32,11 +32,13 @@
                         <span class="text-white text-sm font-semibold font-mono">Create a digital twin of you existing building <br> and release the potential of Web3.</span>
                     </div>
 
-                    <button class="text-blue-600 bg-white px-10 py-2 rounded-full font-semibold hover:bg-blue-600 hover:text-white">Learn More</button>
+                    <a class="text-blue-600 bg-white px-10 py-2 rounded-full font-semibold hover:bg-blue-600 hover:text-white">Learn More</a>
                 </div>
             </div>
 
-            <video src="https://thisismagma.com/wp-content/themes/magma/assets/home/hero/1.mp4?2" autoplay loop muted class="bg-cover w-full"></video>
+            <div class="p-20">
+                <video src="https://thisismagma.com/wp-content/themes/magma/assets/home/hero/1.mp4?2" autoplay loop muted class="bg-cover w-full rounded-lg"></video>
+            </div>
         </div>
 
         <div id="page2" class="bg-blue-700 h-screen w-screen relative px-20 py-28 space-y-20">
@@ -44,8 +46,13 @@
             <h1 class="flex  text-6xl text-white font-serif">The Digital Twin Token is a unique digital asset backed by property data. Magma combines your building's components and systems essential information into DTT.</h1>
         </div>
 
-        <div id="page3" class="bg-blue-600 h-screen w-screen relative">
-            <canvas class="max-h-screen max-w-screen"></canvas>
+        <div id="page3" class="bg-[#1137ca] h-screen w-screen relative">
+            <!-- <canvas class="max-h-screen max-w-screen"></canvas> -->
+            <img src="frames00202.png" alt="">
+        </div>
+
+        <div id="page4" class="h-screen w-screen bg-[#1137ca] relative flex items-center">
+
         </div>
     </div>
 
